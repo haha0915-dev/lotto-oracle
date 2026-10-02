@@ -1,0 +1,7 @@
+{
+  "name": "Lotto Oracle",
+  "description": "The Prestigious Oracle - Premium AI & Algorithmic Lottery Number Generator and Fortune Tracker with sleek dark aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
