@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
-import { Language } from '../types';
-import { translations } from '../data/translations';
-import { HOTLINKED_ASSETS } from '../data/initialData';
+import { Language } from '../../types';
+import { translations } from '../../data/translations';
+import { HOTLINKED_ASSETS } from '../../data/initialData';
 
 interface LoginScreenProps {
   onEmailAuth: (email: string, password: string, isSignUp: boolean) => Promise<void>;

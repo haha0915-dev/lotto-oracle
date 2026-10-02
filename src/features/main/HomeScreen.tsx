@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { LottoSet, Language } from '../types';
-import { translations } from '../data/translations';
-import { HOTLINKED_ASSETS } from '../data/initialData';
+import { LottoSet, Language } from '../../types';
+import { translations } from '../../data/translations';
+import { HOTLINKED_ASSETS } from '../../data/initialData';
 
 interface HomeScreenProps {
   currentPrediction: LottoSet;

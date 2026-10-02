@@ -5,22 +5,22 @@
 
 import React, { useState, useEffect } from 'react';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
-import { ActiveTab, Language, LottoSet, NotificationSettings, UserProfile } from './types';
-import { translations } from './data/translations';
+import { ActiveTab, Language, LottoSet, NotificationSettings, UserProfile } from '../types';
+import { translations } from '../data/translations';
 import {
   INITIAL_USER,
   INITIAL_PREDICTION,
   INITIAL_HISTORY,
   INITIAL_NOTIFICATIONS
-} from './data/initialData';
-import { TopAppBar } from './components/TopAppBar';
-import { BottomNavBar } from './components/BottomNavBar';
-import { HomeScreen } from './components/HomeScreen';
-import { HistoryScreen } from './components/HistoryScreen';
-import { ProfileScreen } from './components/ProfileScreen';
-import { LoginScreen } from './components/LoginScreen';
-import { Modals } from './components/Modals';
-import { isSupabaseConfigured, supabase } from './supabase';
+} from '../data/initialData';
+import { TopAppBar } from '../components/TopAppBar';
+import { BottomNavBar } from '../components/BottomNavBar';
+import { HomeScreen } from '../features/main/HomeScreen';
+import { HistoryScreen } from '../features/operations/HistoryScreen';
+import { ProfileScreen } from '../features/operations/ProfileScreen';
+import { LoginScreen } from '../features/auth/LoginScreen';
+import { Modals } from '../components/Modals';
+import { isSupabaseConfigured, supabase } from '../supabase';
 
 export default function App() {
   const [authUser, setAuthUser] = useState<SupabaseUser | null>(null);

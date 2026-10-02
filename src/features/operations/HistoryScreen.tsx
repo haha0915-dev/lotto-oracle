@@ -1,6 +1,6 @@
 import React from 'react';
-import { LottoSet, Language } from '../types';
-import { translations } from '../data/translations';
+import { LottoSet, Language } from '../../types';
+import { translations } from '../../data/translations';
 
 interface HistoryScreenProps {
   history: LottoSet[];

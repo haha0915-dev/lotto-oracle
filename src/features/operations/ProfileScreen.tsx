@@ -1,7 +1,7 @@
 import React from 'react';
-import { UserProfile, Language } from '../types';
-import { translations } from '../data/translations';
-import { HOTLINKED_ASSETS } from '../data/initialData';
+import { UserProfile, Language } from '../../types';
+import { translations } from '../../data/translations';
+import { HOTLINKED_ASSETS } from '../../data/initialData';
 
 interface ProfileScreenProps {
   user: UserProfile;
