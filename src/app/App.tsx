@@ -184,7 +184,7 @@ export default function App() {
       options: {
         redirectTo: window.location.origin,
         queryParams: provider === 'kakao'
-          ? { scope: 'profile_image profile_nickname' }
+          ? { scope: 'profile_image profile_nickname account_email' }
           : undefined
       }
     });

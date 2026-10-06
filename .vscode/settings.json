@@ -1,0 +1,98 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Prettier와 ESLint 자동 실행 설정
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "prettier.requireConfig": true,
+  "eslint.format.enable": false,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  // Git 파일 색상 표시 활성화
+  "git.enabled": true,
+  "git.decorations.enabled": true,
+  "scm.diffDecorations": "all",
+  "scm.diffDecorationsGutterVisibility": "always",
+  "editor.mouseWheelZoom": true,
+  // Git 파일 상태별 색상 커스터마이징
+  "workbench.colorCustomizations": {
+    "gitDecoration.modifiedResourceForeground": "#ffa500", // 수정된 파일 - 주황색
+    "gitDecoration.untrackedResourceForeground": "#73c991", // 추적되지 않은 파일 - 녹색
+    "gitDecoration.deletedResourceForeground": "#f14c4c", // 삭제된 파일 - 빨간색
+    "gitDecoration.ignoredResourceForeground": "#8c8c8c", // 무시된 파일 - 회색
+    "gitDecoration.conflictingResourceForeground": "#e51400", // 충돌 파일 - 진한 빨간색
+    "gitDecoration.addedResourceForeground": "#73c991", // 추가된 파일 - 녹색
+    "editor.findMatchBackground": "#f5c518cc", // 현재 검색 일치 항목 - 노란색
+    "editor.findMatchHighlightBackground": "#f5c51866", // 나머지 검색 일치 항목 - 연한 노란색
+    "editor.findMatchBorder": "#f5c518", // 현재 검색 일치 항목 테두리
+    "editor.findMatchHighlightBorder": "#f5c51899", // 나머지 검색 일치 항목 테두리
+    "searchEditor.findMatchBackground": "#f5c51866" // 검색 에디터 일치 항목
+  },
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+  "workbench.tree.indent": 20,
+  "favorites.resources": [
+    {
+      "filePath": "src\\stores\\mainStore.ts",
+      "group": "Default"
+    },
+    {
+      "filePath": "src\\stores\\csJobStore.ts",
+      "group": "Default"
+    },
+    {
+      "filePath": "src\\stores\\mainStore.ts",
+      "group": "store"
+    },
+    {
+      "filePath": "src\\stores\\csJobStore.ts",
+      "group": "store"
+    },
+    {
+      "filePath": "src\\features\\internal\\operations\\customerService\\BundleDiscount\\components\\BundleDiscountChange\\BundleDiscountChange.tsx",
+      "group": "all-in-one"
+    },
+    {
+      "filePath": "src\\features\\internal\\operations\\customerService\\BundleDiscount\\components\\BundleDiscountPackage\\BundleDiscountPackage.tsx",
+      "group": "all-in-one"
+    },
+    {
+      "filePath": "src\\utils\\customerService.tsx",
+      "group": "masking"
+    },
+    {
+      "filePath": "src\\features\\internal\\main\\components\\CustomerJoinInfoView\\components\\CustomerJoinDefaultView\\ValueStrategy.ts",
+      "group": "masking"
+    },
+    {
+      "filePath": "src\\features\\internal\\main\\components\\CustomerJoinInfoView\\components\\CustomerJoinDefaultView\\CustomerJoinDefaultView.tsx",
+      "group": "masking"
+    },
+    {
+      "filePath": "src\\components\\special\\CSTaskListDrawer\\CSTaskListDrawer.tsx",
+      "group": "Default"
+    }
+  ],
+  "favorites.groups": ["Default", "store", "refresh", "all-in-one", "masking"],
+  "favorites.currentGroup": "Default",
+  "favorites.sortOrder": "DESC"
+}
