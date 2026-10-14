@@ -1,4 +1,6 @@
 {
+  "deno.enable": true,
+  "deno.enablePaths": ["supabase\\functions"],
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
